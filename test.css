@@ -1,0 +1,9 @@
+body{
+    
+}
+
+p{
+    display: inline-block;    
+    width: 30%;
+    border: 2px solid black;
+}
