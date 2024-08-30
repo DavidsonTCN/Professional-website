@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior :smooth ;
+    scroll-padding-top: 70px;
+}
+
+button{
+    height: 4em;
+    width: 8em;
+}
+
+button:hover{
+    box-shadow: 0px 1em 0px rgba(255,255,255,0.5) inset;
+    transition: 0.2s;
+}
+
+body{
+    background: rgba(90, 61, 164, 0.6);
+    padding-top: 70px;
+       
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: blanchedalmond;
+    z-index: 777;
+    margin: 0;
+}
+
+.menu{
+    height: 70px;
+    /* border: 1px black dotted; */
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    /* border: 1px black dotted; */
+    margin: auto;
+    padding-left: 0;
+
+
+}
+
+li{
+    /* border: 1px white solid; */
+    font-size: 1.5em;
+    font-family: serif;
+}
+
+
+main{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    /* border: 1px black dotted; */
+
+}
+
+footer > p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer p:first-of-type{
+    border-top: 2px solid black;
+
+}
+
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(237, 233, 233);
+    transition: 0.15s ease-in-out
+}
+
+section:first-of-type{
+    width: 100%;
+}
+
+#int{
+    background-image: url("intro_bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    height: 90vh;
+}
+
+#int > div{
+    /* border: 1px dotted green; */
+    width: 90%;
+    margin: auto;
+    display: block;
+    align-content: center;
+}
+
+
+#sec_header{
+    /* margin-bottom: 10%; */
+    width: 40px;
+    border-style: hidden;
+}
+
+section{
+    background: linear-gradient(45deg, #00bfff, #e6e6fa);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 5px white solid; */
+    margin-bottom: 5%;
+    height: 80vh;
+    padding: 2%;
+}
+
+section > div{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: stretch;
+    height: 88%;
+    
+}
+
+#me1{
+    width: 100%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    /* border: 1px black dotted; */
+    font-family: Oswald, sans-serif;
+    font-style: italic;
+    font-size: 5em;
+    margin: 0;
+    /* padding-left: 3%; */
+}
+
+h3{
+    height: auto;
+
+}
+
+
+/* Section 1 - About Me */
+#abt div{
+    /* border: 1px blue dotted; */
+    margin: 0;
+}
+#text1{
+    width: 65%;
+    height: 100%;
+}
+#media1{
+    width: 33%;
+    height: 100%;
+
+}
+
+
+/* Section 2 - Skills */
+#sks div{
+    /* border: 1px black dotted; */
+    margin: 0;
+}
+#text2{
+    width: 65%;
+    height: 100%;
+
+}
+#media2{
+    width: 33%;
+    height: 100%;
+
+}
+
+
+/* Section 3 - Experience */
+#exp div{
+    /* border: 1px black dotted; */
+    margin: 0;
+}
+#Head3{
+    display: inline-block;
+}
+#nfunny{
+    /* border: 1px black dotted; */
+    font-family: Oswald, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+}
+#text3{
+    width: 65%;
+    height: 100%;
+
+}
+#media3{
+    width: 33%;
+    height: 100%;
+
+}
+
+
+/* Section 4 - Contact Me */
+#ctc div{
+    /* border: 1px black dotted; */
+    margin: 0;
+}
+#text4{
+    /* width: 65%; */
+    height: 100%;
+
+}
+
+
+
+/* Flex box in other page */
+
+.bento{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.box{
+    /* border: 2px solid black; */
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+    font-size: 2em;
+    flex-grow: 1;
+    border-radius: 15px;
+}
+
+#box2, #box4{
+    width: 50%;
+}
+
+#box3, #box5{
+    width: 20%;
+}
+
+#box6{
+    width: 100%;
+}
+
+
+
